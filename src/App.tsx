@@ -6,7 +6,7 @@ import UncontrolledOnOff from "./components/OnOff/UncontrolledOnOff";
 import {UnControlledAccordion} from "./components/UnControlledAccordion";
 import {UnCotrolledRating} from "./components/UnControlledRating";
 import OnOff from "./components/OnOff/OnOff";
-
+import {Input} from "./components/Input";
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
             Article 2
 
             <UncontrolledOnOff onChange={setValue}/>{value.toString()}
-
+            <Input/>
         </div>
     )
 }
